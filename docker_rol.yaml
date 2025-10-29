@@ -1,0 +1,11 @@
+---
+- name: Instalar Docker CE en Debian
+  hosts: server
+  
+  roles:
+   - docker
+  
+  pre_tasks:
+  - name: Instalar docker
+    ansible.builtin.debug:
+      msg: Voy a instalar docker mediante un rol

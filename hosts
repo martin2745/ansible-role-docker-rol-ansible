@@ -1,0 +1,2 @@
+# Servidores Linux
+server ansible_host=192.168.122.5 ansible_user=ansible ansible_become=yes
